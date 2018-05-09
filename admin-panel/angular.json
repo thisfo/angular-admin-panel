@@ -23,9 +23,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/dragula/dist/dragula.css",
+              "src/assets/styles/style.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/jquery.sparkline.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -72,9 +77,14 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "styles.css"
+              "styles.css",
+              "node_modules/dragula/dist/dragula.css",
+              "src/assets/styles/style.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/jquery.sparkline.min.js"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
