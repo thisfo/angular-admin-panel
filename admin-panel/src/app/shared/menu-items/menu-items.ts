@@ -140,7 +140,7 @@ const MENUITEMS = [
     icon: 'av_timer'
   },
     {
-    state: 'authentication',
+    state: 'auth',
     name: 'Authentication',
     type: 'sub',
     icon: 'perm_contact_calendar',
