@@ -34,9 +34,12 @@ export class FullComponent implements OnDestroy, AfterViewInit {
   }
 
   ngOnDestroy(): void {
-
+    this.mobileQuery.removeListener(this._mobileQueryListener);
   }
   ngAfterViewInit() {
-
+    // This is for the topbar search
+    (<any>$('.srh-btn, .cl-srh-btn')).on('click', function () {
+      (<any>$('.app-search')).toggle(200);
+    });
   }
 }

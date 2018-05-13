@@ -250,15 +250,6 @@ use profile section
           }
         }
     }
-    [dir="rtl"] {
-        app-sidebar{
-          display: block; overflow: hidden;
-        }
-        .minisidebar #snav.mat-sidenav ~ .mat-drawer-content {
-          margin-left: 0px!important;
-          margin-right: $mini-sidebar-width!important;
-        }
-    }
 }
 
 
